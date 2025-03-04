@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title>Course registration form</title>
+	</head>
+<style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+	    
+        }
+ h2 {
+            text-align: center;
+        }
+ 
+ table {
+            
+            margin: 0 auto; 
+            border-collapse: collapse;
+	    background-color:#FFFFE0;
+        }
+
+        td {
+            padding: 8px;
+        }
+ input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+</style>
+	<body>
+		<h2>Course Registraion Form</h2>
+		<form>
+			<table border="5px" cellpadding="10" class="t1" >
+				<tr>
+					<td>Name</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Contact number</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" >
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio">male
+						<input type="radio">female</td>
+				</tr>
+				<tr>
+					<td>Address<td>
+				<textarea rows="5" cols="10"></textarea>
+				</tr>
+				<tr>
+					<td>Courses</td>
+					<td><select>
+							<option>AI</option>
+							<option>FSD</option>
+							<option>ML</option>
+							<option>IOT</option>
+						</select>
+						</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Register"></td>
+					<td><input type="reset" value="clear"></td>
+				</tr>
+
+
+			</table>
+		</form>
+	</body>
+</html>
+
